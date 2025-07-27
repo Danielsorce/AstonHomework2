@@ -43,7 +43,7 @@ public class Main {
                 .findFirst()
                 .ifPresentOrElse(
                         year -> System.out.println("Год выпуска: " + year),
-                        () -> System.out.println("Такой книги нет")
+                        () -> System.out.println("Такой книги нет ")
                 );
     }
 }

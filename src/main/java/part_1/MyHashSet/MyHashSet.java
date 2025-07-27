@@ -42,7 +42,7 @@ public class MyHashSet<K> implements Iterable<K> {
         }
         return true;
     }
-
+//
     public boolean contains(K value) {
         int index = getIndex(value);
         Node<K> curr = buckets[index];

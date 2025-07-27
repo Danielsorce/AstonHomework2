@@ -16,7 +16,7 @@ public class Test {
         for (int i = 0; i < myArrayList.values.length; i++){
             System.out.println(myArrayList.values[i]);
         }
-        System.out.println("////////////////////////////////////////");
+        System.out.println("/////////////////////////////////////////");
         String Names = myArrayList.get(0);
         System.out.println("Первое имя " + Names.toString());
         System.out.println("////////////////////////////////////////");

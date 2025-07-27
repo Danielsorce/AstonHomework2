@@ -13,7 +13,7 @@ public class Test {
             System.out.println(name);
         }
 
-        System.out.println("/////////////////////////////////////////////////");
+        System.out.println("//////////////////////////////////////////////////");
         System.out.println("Содержит Анастасия? " +Set.contains("Анастасия"));
         System.out.println("Содержит Андрей? " +Set.contains("Андрей"));
         System.out.println("/////////////////////////////////////////////////");

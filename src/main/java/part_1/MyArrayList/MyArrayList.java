@@ -56,7 +56,7 @@ public class MyArrayList<V> {
             throw new IndexOutOfBoundsException("Введен индекс меньше 0 либо больше заданного массива");
         }
     }
-
+//
     public void addAll(Collection<? extends V> collection) {
         collection.forEach(a -> add((V)a));
     }
